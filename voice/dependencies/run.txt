@@ -1,0 +1,33 @@
+Running OpenAssistant
+
+    The latest documentation can be found on our wiki at http://openassistant.org/wiki/
+    Install dependencies and tools. Please see http://openassistant.org/wiki/doku.php?id=installation
+    Download and unpack the latest openassistant-master.zip package.
+    Edit run.sh to configure desired variables, then save.
+    Make run.sh executable with: $chmod +x ./run.sh
+    Run ./run.sh -c -H20 -m0 -M mind/boot. Global variables will be set and run.py will launch.
+    If $MINDDIR/conf/commands.json has changed and your machine is online, a new dictionary and language model will be created via the Sphinx Knowledge Base Tool.
+    Say Launch Open Assistant to enable operating system control commands such as Maximize Window and Fullscreen. Say Launch Stella to initiate a dialogue with her mind. To have Stella quit say Goodbye Stella. Say Close Open Assistant to quit operating system command recognition.
+    To change assistant commands and language, edit conf/commands.json. Exit and relaunch run.sh.
+    For usage instructions, check out the Open Assistant Wiki.
+    For help, you can receive support in the Open Assistant Forum.
+
+Next Steps
+
+    Port Open Assistant to multiple Linux distributions, beginning with Ubuntu
+    Enable dynamic voice and instant name changes via spoken commands
+    Configure syntax and actions via spoken commands
+    Install internal language model translation
+    Improve speech recognition and synthesis
+    Long-term memory & machine learning
+    Web scraping & information analysis
+    Establish multiple default 'personalities' and plug-in functions
+    Port Open Assistant to all operating systems and devices
+    Galactic Exploration!
+
+Join Us!
+
+Join our development working group at: http://www.openassistant.org Developers: here's a quick start guide: http://openassistant.org/wiki/doku.php?id=developers
+Open Assistant Fork
+
+Open Assistant fork for Crux System: https://github.com/s1lvino/c9-ports/tree/master/openassistant

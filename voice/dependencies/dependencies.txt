@@ -1,0 +1,19 @@
+Dependencies
+
+    Arch Linux or Ubuntu Linux (Testing Soon on macOS)
+    Python 3.5
+    PocketSphinx 5PreAlpha
+    GStreamer-1.0
+    GStreamer-1.0 Base Plugins
+    Python-GObject
+    Python-Requests
+
+Useful Tools
+
+    aplay - console audio player
+    plaympeg - console mp3 player
+    projectm - visualizations responsive to sound
+    wmctrl - window manager control. opening, closing, resize, switch windows.
+    xdotool - command line x automation tool
+    xvkbd - virtual keyboard for x
+
